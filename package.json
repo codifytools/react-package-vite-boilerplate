@@ -16,13 +16,19 @@
   "scripts": {
     "build": "vite build",
     "npm:details": "npm pack --dry-run",
-    "npm:publish": "npm run build && npm publish --access public"
+    "npm:publish": "npm run build && npm publish --access public",
+    "storybook": "storybook dev"
   },
   "peerDependencies": {
     "react": ">=18.2.0",
     "react-dom": ">=18.2.0"
   },
   "devDependencies": {
+    "@storybook/react": "^7.5.0",
+    "@storybook/react-vite": "^7.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.5.0",
     "vite": "^4.5.0"
   }
 }
