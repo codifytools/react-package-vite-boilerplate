@@ -1,6 +1,6 @@
 {
   "name": "@codifytools/react-package-vite-boilerplate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "files": [
     "dist"
