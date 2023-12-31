@@ -1,8 +1,4 @@
-const config = {
-  stories: ["./*.stories.js"],
-  framework: {
-    name: "@storybook/react-vite",
-  }
-};
-
-export default config;
+export default {
+  stories: ['./*.stories.jsx'],
+  framework: { name: '@storybook/react-vite' },
+}
