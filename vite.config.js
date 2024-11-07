@@ -1,6 +1,5 @@
 import { resolve } from 'path';
 import { defineConfig } from 'vite';
-import * as pkg from './package.json';
 
 export default defineConfig({
   build: {
@@ -10,7 +9,7 @@ export default defineConfig({
       fileName: 'index',
     },
     rollupOptions: {
-      external: Object.keys(pkg.peerDependencies),
+      external: ['react'],
       output: {
         globals: {
           react: 'React',
