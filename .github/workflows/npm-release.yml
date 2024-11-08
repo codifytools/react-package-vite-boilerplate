@@ -1,0 +1,27 @@
+name: npm-release
+on:
+  push:
+    tags:
+      - '*'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout repository
+      uses: actions/checkout@v4
+
+    - name: setup node
+      uses: actions/setup-node@v4
+      with:
+        node-version: 22
+
+    - name: install dependencies
+      run: npm ci
+
+    - name: build package
+      run: npm run build
+
+    - name: publish package npm
+      run: npm publish --access public
+      env:
+        NODE_AUTH_TOKEN: ${{secrets.NPM_ACCESS_TOKEN}}
