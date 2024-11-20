@@ -35,7 +35,7 @@
     "node": ">=20.0.0"
   },
   "devDependencies": {
-    "@storybook/react-vite": "^8.4.2",
-    "vite": "^5.4.10"
+    "@storybook/react-vite": "^8.4.4",
+    "vite": "^5.4.11"
   }
 }
