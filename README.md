@@ -7,7 +7,6 @@ Boilerplate code for a simple, lightweight, and performant react npm package.
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
 
 ## Features
-- [Babel](https://babeljs.io/) for modern JavaScript and JSX transpilation.
 - [Vite](https://vitejs.dev/) for build.
 - Bundle generated in `umd` and `es` formats.
 - [Storybook](https://storybook.js.org/) for local development.
