@@ -36,6 +36,6 @@
   },
   "devDependencies": {
     "@storybook/react-vite": "^8.6.12",
-    "vite": "^6.2.5"
+    "vite": "^6.3.5"
   }
 }
